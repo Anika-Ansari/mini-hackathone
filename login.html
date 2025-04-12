@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LogIn</title>
+  
+</head>
+<body class="bg-gradient-to-br from-teal-300 to-blue-500 min-h-screen flex items-center justify-center">
+
+  <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm">
+    <h2 class="text-3xl font-bold mb-6 text-center text-teal-600">LogIn</h2>
+
+    <!-- Email Input Field -->
+    <input 
+      type="text" 
+      id="loginEmail" 
+      placeholder="Email"
+      class="w-full mb-4 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-400"
+    >
+
+    <!-- Password Input Field -->
+    <input 
+      type="password" 
+      id="loginPassword" 
+      placeholder="Password"
+      class="w-full mb-6 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-400"
+    >
+
+    <!-- LogIn Button -->
+    <button 
+      id="login" 
+      class="w-full bg-teal-600 text-white py-2 rounded-md font-semibold hover:bg-teal-700 transition duration-300"
+    > LogIn
+    </button>
+  </div>
+
+
+  <script type="module" src="app.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>

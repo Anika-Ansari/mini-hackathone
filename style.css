@@ -1,0 +1,15 @@
+.navi{
+    background-color: rgb(85, 179, 213) !important;
+}
+.navbar .navbar-brand{
+    margin-left: 50px !important;
+}
+.nav-item .nav-link{
+    text-align: right !important;
+}
+
+button{
+    color: darkorange !important;
+    background-color: darkslategray !important;
+
+}
